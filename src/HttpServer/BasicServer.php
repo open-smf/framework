@@ -9,7 +9,7 @@ use Swoole\Http\Response;
 use Swoole\Http\Server;
 use Swoole\Process;
 
-class HttpServer
+class BasicServer
 {
     use LogTrait;
     use ProcessTitleTrait;

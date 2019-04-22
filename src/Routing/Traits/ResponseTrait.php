@@ -1,6 +1,6 @@
 <?php
 
-namespace Smf\HttpServer\Traits;
+namespace Smf\Routing\Traits;
 
 use Swoole\Http\Response;
 
