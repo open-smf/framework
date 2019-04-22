@@ -1,10 +1,10 @@
 <?php
 
-namespace Smf\HttpServer;
+namespace Smf\Server;
 
 use Smf\Routing\Router;
 
-class SmfServer extends BasicServer
+class SmfHttpServer extends HttpServer
 {
     public function __construct(string $workDir, array $settings = [])
     {

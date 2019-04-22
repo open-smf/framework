@@ -1,6 +1,6 @@
 <?php
 
-namespace Smf\HttpServer;
+namespace Smf\Server;
 
 use Swoole\Http\Request;
 use Swoole\Http\Response;

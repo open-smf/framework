@@ -1,15 +1,15 @@
 <?php
 
-namespace Smf\HttpServer;
+namespace Smf\Server;
 
-use Smf\HttpServer\Traits\LogTrait;
-use Smf\HttpServer\Traits\ProcessTitleTrait;
+use Smf\Server\Traits\LogTrait;
+use Smf\Server\Traits\ProcessTitleTrait;
 use Swoole\Http\Request;
 use Swoole\Http\Response;
 use Swoole\Http\Server;
 use Swoole\Process;
 
-class BasicServer
+class HttpServer
 {
     use LogTrait;
     use ProcessTitleTrait;

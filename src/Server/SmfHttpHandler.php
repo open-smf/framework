@@ -1,6 +1,6 @@
 <?php
 
-namespace Smf\HttpServer;
+namespace Smf\Server;
 
 use Smf\Routing\Router;
 use Swoole\Http\Request;
