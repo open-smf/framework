@@ -32,12 +32,16 @@
   ],
   "require": {
     "php": ">=7.1",
-    "ext-swoole": ">=4.3.0"
+    "ext-swoole": ">=4.3.0",
+    "ext-pcntl": "*"
   },
   "autoload": {
     "psr-4": {
       "Smf\\": "src"
-    }
+    },
+    "files": [
+      "helpers.php"
+    ]
   },
   "prefer-stable": true,
   "minimum-stability": "dev"
