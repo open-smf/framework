@@ -1,0 +1,44 @@
+{
+  "name": "open-smf/framework",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/open-smf/framework/issues",
+    "source": "https://github.com/open-smf/framework"
+  },
+  "description": "The minimalist coroutine Swoole-based Micro-Framework.",
+  "keywords": [
+    "swoole",
+    "smf",
+    "framework",
+    "async",
+    "coroutine",
+    "server",
+    "http",
+    "websocket",
+    "tcp",
+    "udp",
+    "process",
+    "task",
+    "timer",
+    "performance"
+  ],
+  "homepage": "https://github.com/open-smf/framework",
+  "authors": [
+    {
+      "name": "Xie Biao",
+      "email": "hhxsv5@sina.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-swoole": ">=4.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smf\\": "src"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
